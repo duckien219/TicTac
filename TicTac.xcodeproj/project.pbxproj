@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07AEE4F31EEA9DAE00D72B7C /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AEE4F21EEA9DAE00D72B7C /* Start.swift */; };
 		07FA2C421EEA522A0030739B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA2C411EEA522A0030739B /* AppDelegate.swift */; };
 		07FA2C441EEA522A0030739B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA2C431EEA522A0030739B /* ViewController.swift */; };
 		07FA2C471EEA522A0030739B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FA2C451EEA522A0030739B /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07AEE4F21EEA9DAE00D72B7C /* Start.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
 		07FA2C3E1EEA522A0030739B /* TicTac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FA2C411EEA522A0030739B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07FA2C431EEA522A0030739B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				07FA2C411EEA522A0030739B /* AppDelegate.swift */,
 				07FA2C431EEA522A0030739B /* ViewController.swift */,
+				07AEE4F21EEA9DAE00D72B7C /* Start.swift */,
 				07FA2C451EEA522A0030739B /* Main.storyboard */,
 				07FA2C481EEA522A0030739B /* Assets.xcassets */,
 				07FA2C4A1EEA522A0030739B /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07FA2C441EEA522A0030739B /* ViewController.swift in Sources */,
+				07AEE4F31EEA9DAE00D72B7C /* Start.swift in Sources */,
 				07FA2C421EEA522A0030739B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -247,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -261,6 +265,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MJ777Q76VF;
 				INFOPLIST_FILE = TicTac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nguyenduckien.TicTac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MJ777Q76VF;
 				INFOPLIST_FILE = TicTac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nguyenduckien.TicTac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +306,7 @@
 				07FA2C521EEA522A0030739B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
